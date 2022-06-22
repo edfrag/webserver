@@ -60,5 +60,5 @@ resource "aws_instance" "webserver" {
 	tags = {
 		Name = "Terraform"
 	}
-    count = 1
+    count = 0
 }
